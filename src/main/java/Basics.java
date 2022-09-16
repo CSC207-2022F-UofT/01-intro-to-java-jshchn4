@@ -100,7 +100,7 @@ public class Basics {
          * Current count: 0
          */
         for (int i = 10; i <= 10; i--) {
-            System.println("Current count:" + i);
+            System.out.println("Current count:" + i);
         
         }
       
@@ -182,7 +182,7 @@ public class Basics {
         for ( int i = 0; i <= arr.length; i++) {
             
             if ((i % 2) != 0) {
-                current_sum += num;
+                current_sum += arr[i];
             }
             
         }
